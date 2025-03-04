@@ -1,0 +1,18 @@
+model:
+  type: actqkv_dev_qwen
+  path: ./models/Qwen2.5-7B-Instruct
+  block_size: 64
+  n_init: 64
+  n_local: 512
+  topk: 23
+  repr_topk: 4
+  max_cached_block: 256
+  exc_block_size: 256
+  fattn: false
+  base: 500000
+  distance_scale: 1.0
+  question_weight: 4
+  
+max_len: 2147483647
+chunk_size: 32768
+conv_type: qwen

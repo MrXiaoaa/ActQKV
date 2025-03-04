@@ -1,0 +1,18 @@
+model:
+  type: actqkv_dev
+  path: ./models/Meta-Llama-3-8B-Instruct
+  block_size: 32
+  n_init: 64
+  n_local: 512
+  topk: 46
+  repr_topk: 4
+  max_cached_block: 128
+  exc_block_size: 256
+  fattn: false
+  base: 500000
+  distance_scale: 1.0
+  question_weight: 4
+  
+max_len: 2147483647
+chunk_size: 32768
+conv_type: llama-3-inst
