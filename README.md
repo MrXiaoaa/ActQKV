@@ -2,6 +2,8 @@
 
 Activation-aware Probe-Query: Effective Key-Value Retrieval for Long-Context LLMs Inference
 
+The details would be updated soon!
+
 ## Acknowledgement
 We thank the following repositories for reference:
 - [NeedleInAHaystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)
